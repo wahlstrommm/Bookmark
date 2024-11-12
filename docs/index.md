@@ -3,6 +3,7 @@
 Välkommen till din personliga bookmark manager. Här kan du organisera och spara alla dina favoritwebbsidor.
 
 ## Kategorier:
+
 - [Development](categories/development.md)
 - [Productivity](categories/productivity.md)
 - [Design](categories/design.md)
@@ -13,10 +14,12 @@ Välkommen till din personliga bookmark manager. Här kan du organisera och spar
 - [API & Tools](categories/api.md)
 
 ## Video:
+
 - [Youtubers](videos/youtubers.md)
 - [Lo-fi](videos/lofi.md)
 
-## Repo/npm
+## Repo
+
 - [React](repo/react.md)
 - [Next.js](repo/nextjs.md)
 - [JavaScript](repo/javaScript.md)
@@ -26,7 +29,28 @@ Välkommen till din personliga bookmark manager. Här kan du organisera och spar
 - [Node.js](repo/nodejs.md)
 
 ## Git
+
 - [Git basic commando](git/basic.md)
+
+
+## Npm
+
+- [React](npm/react.md)
+- [Nextjs](npm/nextjs.md)
+
+## Snippets
+
+- [Express](snippets/express.md)
+- [React](snippets/react.md)
+- [Nextjs](snippets/nextjs.md)
+- [JavaScript](snippets/javaScript.md)
+- [TypeScript](snippets/typeScript.md)
+
+## Script
+
+- [script](script/script.md)
+
+
 
 ## Sök
 Använd sökfältet för att hitta dina bokmärken snabbt.
