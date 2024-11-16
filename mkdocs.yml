@@ -1,5 +1,5 @@
 site_name: Bookmark Manager
-site_url: https://www.xxxxxx.se
+site_url: https://wahlstrommm.github.io/Bookmark/
 
 theme:
   name: material
@@ -9,6 +9,7 @@ theme:
     - toc.integrate
     - search.suggest
     - search.highlight
+    - content.code.copy
   language: en
   palette:
     - scheme: default
