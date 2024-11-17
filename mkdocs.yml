@@ -4,30 +4,36 @@ site_url: https://wahlstrommm.github.io/Bookmark/
 theme:
   name: material
   features:
-    - navigation.tabs
-    - navigation.sections
-    - toc.integrate
-    - search.suggest
-    - search.highlight
-    - content.code.copy
-  language: en
+    - navigation.tabs # Tabbar för navigation i sidhuvudet
+    - navigation.sections # Sektionering av innehållet
+    - toc.integrate # Inbyggd integrering av innehållsförteckning (TOC)
+    - search.suggest # Förslag vid sökning
+    - search.highlight # Sökhighlighting
+    - content.code.copy # Möjlighet att kopiera kodsnuttar
+  language: en # Stöd för engelska språket
   palette:
     - scheme: default
       toggle:
-        icon: material/toggle-switch-off-outline
+        icon: material/weather-night
         name: Switch to dark mode
       primary: teal
       accent: purple
     - scheme: slate
       toggle:
-        icon: material/toggle-switch
+        icon: material/weather-sunny
         name: Switch to light mode
       primary: teal
       accent: lime
 
+# Plugin för att aktivera sökning med stöd för flera språk
 plugins:
-  - search
+  - search:
+      lang: ["en", "sv"] # Stöd för både engelska och svenska
+      suggest: true
+      highlight: true
+      indexer: true
 
+# Sociala mediekopplingar för att visa ikoner i sidfoten
 extra:
   social:
     - icon: fontawesome/brands/github-alt
@@ -37,12 +43,16 @@ extra:
     - icon: fontawesome/brands/linkedin
       link: https://www.linkedin.com/in/magnus-vahlstrom
 
+extra:
+  logo: "material/bookmark-box-outline"
+
+# Användbara markdown extensions för att förbättra dokumentationen
 markdown_extensions:
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
   - pymdownx.highlight:
-      anchor_linenums: true
+      anchor_linenums: true # Lägg till radnummer vid kodsnuttar
   - pymdownx.inlinehilite
   - pymdownx.snippets
   - admonition
@@ -54,5 +64,6 @@ markdown_extensions:
   - pymdownx.mark
   - attr_list
 
+# Copyright-text i sidfoten
 copyright: |
   &copy; 2024 <a href="https://github.com/wahlstrommm" target="_blank" rel="noopener">Magnus Vahlström</a>
