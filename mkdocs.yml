@@ -1,4 +1,4 @@
-site_name: MkDocs YouTube Tutorial
+site_name: Bookmark Manager
 site_url: https://www.xxxxxx.se
 
 theme:
@@ -7,12 +7,8 @@ theme:
     - navigation.tabs
     - navigation.sections
     - toc.integrate
-    - navigation.top
     - search.suggest
     - search.highlight
-    - content.tabs.link
-    - content.code.annotation
-    - content.code.copy
   language: en
   palette:
     - scheme: default
