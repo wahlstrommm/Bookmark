@@ -49,6 +49,10 @@ Välkommen till din personliga bookmark manager. Här kan du organisera och spar
 
 - [script](script/script.md)
 
+## Guide
+
+- [Guides](guides/guides.md)
+
 ## Sök
 
 Använd sökfältet för att hitta dina bokmärken snabbt.
