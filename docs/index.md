@@ -32,7 +32,6 @@ Välkommen till din personliga bookmark manager. Här kan du organisera och spar
 
 - [Git basic commando](git/basic.md)
 
-
 ## Npm
 
 - [React](npm/react.md)
@@ -50,11 +49,9 @@ Välkommen till din personliga bookmark manager. Här kan du organisera och spar
 
 - [script](script/script.md)
 
-
-
 ## Sök
-Använd sökfältet för att hitta dina bokmärken snabbt.
 
+Använd sökfältet för att hitta dina bokmärken snabbt.
 
 ```markdown
 | Titel                            | URL                                    | Beskrivning                                           |
